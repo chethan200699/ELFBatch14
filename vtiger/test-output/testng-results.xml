@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="3" ignored="0" total="4" passed="0" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome browser is successfully launched]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser is successfully minimized]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser is successfully launched]]>
+    </line>
+    <line>
+      <![CDATA[admin]]>
+    </line>
+    <line>
+      <![CDATA[root]]>
+    </line>
+    <line>
+      <![CDATA[on test start]]>
+    </line>
+    <line>
+      <![CDATA[on test Skipped]]>
+    </line>
+    <line>
+      <![CDATA[admin]]>
+    </line>
+    <line>
+      <![CDATA[root]]>
+    </line>
+    <line>
+      <![CDATA[on test start]]>
+    </line>
+    <line>
+      <![CDATA[on test Skipped]]>
+    </line>
+    <line>
+      <![CDATA[admin]]>
+    </line>
+    <line>
+      <![CDATA[root]]>
+    </line>
+    <line>
+      <![CDATA[on test start]]>
+    </line>
+    <line>
+      <![CDATA[on test Skipped]]>
+    </line>
+    <line>
+      <![CDATA[admin]]>
+    </line>
+    <line>
+      <![CDATA[root]]>
+    </line>
+    <line>
+      <![CDATA[on test start]]>
+    </line>
+    <line>
+      <![CDATA[on test Failed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-07T12:59:34 IST" name="Default suite" finished-at="2021-05-07T13:01:16 IST" duration-ms="102629">
+    <groups>
+      <group name="smoke">
+        <method signature="Testcase11.demo1()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" name="demo1" class="vtigerTestCases.Testcase11"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2021-05-07T12:59:34 IST" name="Default test" finished-at="2021-05-07T13:01:16 IST" duration-ms="102629">
+      <class name="vtigerTestCases.Testcase11">
+        <test-method is-config="true" signature="sample()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T12:59:34 IST" name="sample" finished-at="2021-05-07T12:59:57 IST" duration-ms="23511" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser is successfully launched]]>
+            </line>
+            <line>
+              <![CDATA[chrome browser is successfully minimized]]>
+            </line>
+            <line>
+              <![CDATA[chrome browser is successfully launched]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sample -->
+        <test-method is-config="true" signature="login()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T12:59:57 IST" name="login" finished-at="2021-05-07T13:00:06 IST" duration-ms="8769" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[admin]]>
+            </line>
+            <line>
+              <![CDATA[root]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method retried="true" signature="demo1()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T13:00:06 IST" name="demo1" finished-at="2021-05-07T13:00:23 IST" duration-ms="17178" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at vtigerTestCases.Testcase11.demo1(Testcase11.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[on test start]]>
+            </line>
+            <line>
+              <![CDATA[on test Skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T13:00:23 IST" name="logout" finished-at="2021-05-07T13:00:26 IST" duration-ms="3280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T13:00:26 IST" name="login" finished-at="2021-05-07T13:00:30 IST" duration-ms="3766" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[admin]]>
+            </line>
+            <line>
+              <![CDATA[root]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method retried="true" signature="demo1()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T13:00:30 IST" name="demo1" finished-at="2021-05-07T13:00:40 IST" duration-ms="10193" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at vtigerTestCases.Testcase11.demo1(Testcase11.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[on test start]]>
+            </line>
+            <line>
+              <![CDATA[on test Skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T13:00:40 IST" name="logout" finished-at="2021-05-07T13:00:42 IST" duration-ms="1977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T13:00:42 IST" name="login" finished-at="2021-05-07T13:00:46 IST" duration-ms="3214" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[admin]]>
+            </line>
+            <line>
+              <![CDATA[root]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method retried="true" signature="demo1()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T13:00:46 IST" name="demo1" finished-at="2021-05-07T13:00:56 IST" duration-ms="10269" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at vtigerTestCases.Testcase11.demo1(Testcase11.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[on test start]]>
+            </line>
+            <line>
+              <![CDATA[on test Skipped]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T13:00:56 IST" name="logout" finished-at="2021-05-07T13:00:58 IST" duration-ms="1957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T13:00:58 IST" name="login" finished-at="2021-05-07T13:01:02 IST" duration-ms="3796" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[admin]]>
+            </line>
+            <line>
+              <![CDATA[root]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="demo1()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T13:01:02 IST" name="demo1" finished-at="2021-05-07T13:01:12 IST" duration-ms="10404" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at vtigerTestCases.Testcase11.demo1(Testcase11.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:214)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[on test start]]>
+            </line>
+            <line>
+              <![CDATA[on test Failed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo1 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T13:01:13 IST" name="logout" finished-at="2021-05-07T13:01:15 IST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:vtigerTestCases.Testcase11@4de4b452]" started-at="2021-05-07T13:01:15 IST" name="closeBrowser" finished-at="2021-05-07T13:01:16 IST" duration-ms="1348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- vtigerTestCases.Testcase11 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
